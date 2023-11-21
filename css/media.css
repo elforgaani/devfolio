@@ -1,7 +1,8 @@
 @media screen and (max-width: 990px){
-    .nav-item::after{
+    .nav-item::after , a.nav-link.active::after{
         left: 0;
     }
+    
 }
 
 @media screen and (max-width: 500px) {
